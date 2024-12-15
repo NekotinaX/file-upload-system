@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Body settings */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('dash/img/login-bag.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+/* Container settings */
+.container {
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.9); /* Darker transparent background */
+    padding: 50px 70px; /* Increased padding to make the container bigger */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Stronger shadow for better effect */
+    max-width: 600px; /* Maximum width of the container */
+    width: 100%; /* Full width of the container */
+}
+
+/* Title text styling */
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* Paragraph text styling */
+p {
+    color: #bbbbbb;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+/* Button group settings */
+.button-group {
+    display: flex;
+    gap: 20px; /* Increased space between buttons */
+    justify-content: center;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 35px; /* Increased button size */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; /* Slightly more rounded corners */
+    cursor: pointer;
+    background-color: #e0a800; /* Darker yellow for better contrast */
+    color: #ffffff;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #c88d00; /* Even darker yellow on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Button active effect */
+.btn:active {
+    transform: scale(0.95); /* Slight shrink on click */
+}
