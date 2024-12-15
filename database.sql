@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Хост: 127.0.0.1
--- Време на генериране: 15 дек 2024 в 13:45
--- Версия на сървъра: 10.4.32-MariaDB
--- Версия на PHP: 8.2.12
+-- Host: 127.0.0.1
+-- Generation Time: Dec 15, 2024 at 13:45
+-- Server Version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данни: `login_system`
+-- Database: `login_system`
 --
 
 -- --------------------------------------------------------
 
 --
--- Структура на таблица `downloads`
+-- Table structure for `downloads`
 --
 
 CREATE TABLE `downloads` (
@@ -37,7 +37,7 @@ CREATE TABLE `downloads` (
 -- --------------------------------------------------------
 
 --
--- Структура на таблица `resources`
+-- Table structure for `resources`
 --
 
 CREATE TABLE `resources` (
@@ -51,7 +51,7 @@ CREATE TABLE `resources` (
 -- --------------------------------------------------------
 
 --
--- Структура на таблица `users`
+-- Table structure for `users`
 --
 
 CREATE TABLE `users` (
@@ -65,7 +65,7 @@ CREATE TABLE `users` (
 --
 
 --
--- Индекси за таблица `downloads`
+-- Indexes for table `downloads`
 --
 ALTER TABLE `downloads`
   ADD PRIMARY KEY (`id`),
@@ -73,13 +73,13 @@ ALTER TABLE `downloads`
   ADD KEY `resource_id` (`resource_id`);
 
 --
--- Индекси за таблица `resources`
+-- Indexes for table `resources`
 --
 ALTER TABLE `resources`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индекси за таблица `users`
+-- Indexes for table `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
@@ -108,11 +108,11 @@ ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- Ограничения за дъмпнати таблици
+-- Constraints for dumped tables
 --
 
 --
--- Ограничения за таблица `downloads`
+-- Constraints for table `downloads`
 --
 ALTER TABLE `downloads`
   ADD CONSTRAINT `downloads_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`),
