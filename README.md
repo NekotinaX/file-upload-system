@@ -12,6 +12,11 @@ This is a **file upload and download system** where users can register, log in, 
 - **Dashboard**: Users can upload and download files.
 - **Download Tracking**: The system tracks how many times each file has been downloaded.
 
+## Video Demo 🎥
+If you'd like to see how the system works, watch the demo video here: [Project Demo](https://youtu.be/4U03A45RPcQ?si=VL_NAM9hRu1ANcNs)
+
+
+
 ## Setup Instructions 🖥️
 
 1. **Clone the repository**:
@@ -39,18 +44,3 @@ This is a **file upload and download system** where users can register, log in, 
 - `dash/logout.php`: The logout functionality to exit the system.
 - `style.css`: The CSS file for the design of the app.
 
-## Video Demo 🎥
-
-If you'd like to see how the system works, watch the demo video here: [Project Demo](https://youtu.be/4U03A45RPcQ?si=VL_NAM9hRu1ANcNs)
-
-## License 📝
-
-This project is open-source and licensed under the [MIT License](LICENSE).
-```
-
-### Key Updates:
-- I've added the mention of the `database.sql` file for the database setup.
-- The content is now simplified with only the necessary details you provided.
-- The video link is included as requested.
-
-Това е минималистичният README, който можеш да използваш директно. Надявам се да е по-близо до твоето очакване!
