@@ -1,6 +1,3 @@
-Извинявай за предишното объркване! Ето по-семпъл и точен README.md файл, който включва само информацията, която си ми дал, и добавя споменаването на SQL файла:
-
-
 # Registration System with File Upload and Download Dashboard 📂🚀
 
 This is a **file upload and download system** where users can register, log in, and access a dashboard where they can upload files. Every registered user can download files, and the system tracks how many times each file has been downloaded in the database.
