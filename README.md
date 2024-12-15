@@ -30,12 +30,14 @@ This is a **file upload and download system** where users can register, log in, 
 
 ## Project Structure 🗂️
 
-- `index.php`: Main file for registration, login, and file upload.
-- `dashboard.php`: Displays the user's dashboard after login.
-- `upload.php`: Handles file uploads.
-- `config.php`: Configuration file for the database connection.
-- `style.css`: CSS file for the design of the app.
-- `database.sql`: SQL file for setting up the database.
+- `index.html`: The homepage for users to access the system.
+- `login.php`: The login page for users to access the system.
+- `register.php`: The registration page for new users.
+- `database.sql`: SQL file for setting up the database tables.
+- `database/db.php`: PHP file for the database connection setup.
+- `dash/index.php`: The main dashboard where users can upload and download files.
+- `dash/logout.php`: The logout functionality to exit the system.
+- `style.css`: The CSS file for the design of the app.
 
 ## Video Demo 🎥
 
